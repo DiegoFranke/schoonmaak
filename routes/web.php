@@ -1,6 +1,6 @@
 <?php
 
-use App\Http\Controllers\PostsController;
+use App\Http\Controllers\HuurpleksController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -18,9 +18,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/posts', [PostsController::class, 'index']);
-Route::post('/posts', [PostsController::class, 'store']);
-Route::get('/posts/create', [PostsController::class, 'create']);
-Route::get('/posts/{post}/edit', [PostsController::class, 'edit']);
-Route::put('/posts/{post}', [PostsController::class, 'update']);
-Route::delete('/posts/{post}', [PostsController::class, 'destroy']);
+Route::get('/huurpleks', [HuurpleksController::class, 'index']);
+Route::post('/huurpleks', [HuurpleksController::class, 'store']);
+Route::get('/huurpleks/create', [HuurpleksController::class, 'create']);
+Route::get('/huurpleks/{huurplek}/edit', [HuurpleksController::class, 'edit']);
+Route::put('/huurpleks/{huurplek}', [HuurpleksController::class, 'update']);
+Route::delete('/huurpleks/{huurplek}', [HuurpleksController::class, 'destroy']);
+
