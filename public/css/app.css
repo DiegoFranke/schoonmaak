@@ -25,6 +25,9 @@ font-family: RoadRage !important;
   height: 56px;
   background-color: #9fa3a5;
 }
+.nalian{
+    margin-top: 56px;
+}
 body {
   background-image: url('https://cdn.discordapp.com/attachments/762970415919661058/854092903126663238/download.png');
   height:100%;
@@ -87,6 +90,11 @@ footer{
   font-size: 15px!important;
   color:white!important;
   padding: 5px!important;
+}
+.discordlink{
+  font-family: RoadRage !important;
+  color:white!important;
+  font-size: 20px!important;
 }
 .homemain{
   width: 1100px;
