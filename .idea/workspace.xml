@@ -22,13 +22,8 @@
     <list default="true" id="c7205795-5345-4758-a41e-781597fb9c4a" name="Default Changelist" comment="sommit">
       <change afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/openbareschoonmaak/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/OpenbareSchoonmaakController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/OpenbareSchoonmaakController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/huurpleks/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/huurpleks/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,7 +187,7 @@
       <workItem from="1623674997253" duration="216000" />
       <workItem from="1623680153816" duration="2423000" />
       <workItem from="1623682696779" duration="1102000" />
-      <workItem from="1623832434756" duration="3621000" />
+      <workItem from="1623832434756" duration="27138000" />
     </task>
     <task id="LOCAL-00001" summary="sommit">
       <created>1623683773313</created>
@@ -215,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623835342931</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="sommit">
+      <created>1623836606454</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1623836606454</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,13 +252,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/-1920.551.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1623674934752" />
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1623835345936">
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1623860059226">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2/-1920.551.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1623835345936" />
-    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1623835354585">
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2/-1920.551.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1623860059226" />
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1623860072194">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.551.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1623835354585" />
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.551.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1623860072194" />
   </component>
 </project>
