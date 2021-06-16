@@ -20,8 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c7205795-5345-4758-a41e-781597fb9c4a" name="Default Changelist" comment="sommit">
-      <change beforePath="$PROJECT_DIR$/app/Models/Post.php" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/openbareschoonmaak/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/OpenbareSchoonmaakController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/OpenbareSchoonmaakController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/huurpleks/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/huurpleks/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,10 +160,13 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/openbareschoonmaak" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\laragon\www\laravel-crud\resources\views\openbareschoonmaak" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\laragon\www\laravel-crud\app\Http\Controllers" />
       <recent name="D:\laragon\www\laravel-crud\routes" />
@@ -182,7 +192,7 @@
       <workItem from="1623674997253" duration="216000" />
       <workItem from="1623680153816" duration="2423000" />
       <workItem from="1623682696779" duration="1102000" />
-      <workItem from="1623832434756" duration="2618000" />
+      <workItem from="1623832434756" duration="3621000" />
     </task>
     <task id="LOCAL-00001" summary="sommit">
       <created>1623683773313</created>
@@ -191,7 +201,21 @@
       <option name="project" value="LOCAL" />
       <updated>1623683773313</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="sommit">
+      <created>1623835291164</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1623835291164</updated>
+    </task>
+    <task id="LOCAL-00003" summary="sommit">
+      <created>1623835342931</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1623835342931</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,17 +242,21 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="669" y="295" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/-1920.551.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1623834919131" />
+    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1623835596066">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/-1920.551.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1623835596066" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1623674934752">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/-1920.551.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1623674934752" />
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1623683775097">
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1623835345936">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2/-1920.551.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1623683775097" />
-    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1623835194266">
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2/-1920.551.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1623835345936" />
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1623835354585">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.551.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1623835194266" />
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.551.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1623835354585" />
   </component>
 </project>

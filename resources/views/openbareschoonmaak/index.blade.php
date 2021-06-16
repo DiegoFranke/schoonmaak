@@ -1,7 +1,7 @@
 
     <nav class="navbar navbar-inverse">
         <ul class="nav navbar-nav">
-            <li><a href="{{ URL::to('huurpleks') }}">View All Plekken</a></li>
+            <li><a href="{{ URL::to('huurpleks') }}">View All sharks</a></li>
             <li><a href="{{ URL::to('openbareschoonmaak') }}">View All Openbare ruimtes</a></li>
         </ul>
     </nav>
@@ -24,15 +24,13 @@
             <td>End Date</td>
         </tr>
         </thead>
+
         <tbody>
-        @foreach($huurpleks as $key => $value)
+        @foreach($openbareschoonmaak as $key => $value)
             <tr>
-                <td>{{ $value->id }}</td>
-                <td>{{ $value->bezet }}</td>
-                <td>{{ $value->schoon }}</td>
                 <td>{{ $value->description }}</td>
-                <td>{{ $value->start_date }}</td>
-                <td>{{ $value->end_date }}</td>
+                <td>{{ $value->dag_schoon }}</td>
+
 
                 <!-- we will also add show, edit, and delete buttons -->
                 <td>
@@ -44,12 +42,11 @@
 
 
                     <!-- edit this shark (uses the edit method found at GET /sharks/{id}/edit -->
-                    <a class="btn btn-small btn-info" href="{{ URL::to('huurpleks/' . $value->id . '/edit') }}">Edit this shark</a>
+                    <a class="btn btn-small btn-info" href="{{ URL::to('openbareschoonmaak/') }}">Edit this shark</a>
 
                 </td>
             </tr>
         @endforeach
         </tbody>
-
     </table>
 

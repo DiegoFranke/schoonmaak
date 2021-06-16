@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\OpenbareSchoonmaakController;
 use App\Http\Controllers\HuurpleksController;
 use Illuminate\Support\Facades\Route;
 
@@ -17,7 +18,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-
+Route::get('/openbareschoonmaak', [OpenbareSchoonmaakController::class, 'index']);
 Route::get('/huurpleks', [HuurpleksController::class, 'index']);
 Route::post('/huurpleks', [HuurpleksController::class, 'store']);
 Route::get('/huurpleks/create', [HuurpleksController::class, 'create']);
